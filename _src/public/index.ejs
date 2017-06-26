@@ -1,43 +1,56 @@
-<!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
   <div class="container">
-    <h1><%= title %></h1>
-    <p>This is an example boilerplate using HTML5 Boilerplate with Bootstap and Harp. Harp can pre-compile LESS so we use the LESS version of Twitter Bootstrap.</p>
-    <p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <h1 class="th-logo-text display-4 text-muted"><%= title %></h1>
+    <h3 class="th-header-message  display-6">
+      Web and mobile development. 
+      Digital education.
   </div>
 </div>
 
 <div class="container">
+  <div>
+    <i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i>
+    We are a Cambridge, UK based consultancy with a proven track record of delivering
+    high quality, on-time software projects and leading edge programming courses.
+  </div>
 
-  <div class="row">
-    <div class="col-lg-12">
-      <p>This is a Port of HTML5 Boilerplate to Harp and makes use of many of Harps features</p>
-      <ul>
-        <li>Templates with EJS and Jade</li>
-        <li>Partials and Layouts</li>
-        <li>Flexible Meta Data</li>
-        <li>Custom 404 Page</li>
-        <li>Pre-compiling LESS</li>
-      </ul>
+  <br>
+  
+  <div class="th-section row">
+    <div class="col-md-6">
+      <h2>Development</h2>
+      <p>We engage in modern full-stack web and mobile development.
+        Rely on our expertise to deliver your application.</p>
+      <p><a class="btn btn-secondary" href="development" role="button">More &raquo;</a></p>
+    </div>
+    <div class="col-md-6">
+      <h2>Digital Education</h2>
+      <p>We create and deliver programming based courses for businesses, schools and clubs.</p>
+      <p><a class="btn btn-secondary" href="education" role="button">More &raquo;</a></p>
     </div>
   </div>
 
-  <!-- Example row of columns -->
-  <div class="row">
-    <div class="col-lg-4">
-      <%- partial("_shared/blurb") %>
-    </div>
-    <div class="col-lg-4">
-      <%- partial("_shared/blurb") %>  
-   </div>
-    <div class="col-lg-4">
-      <%- partial("_shared/blurb") %>
+  <h3 class="th-section text-muted">Our Clients</h3>
+  
+  <div class="th-clients row">
+    <div class="card-deck">
+      <div class="card">
+        <div class="card-block">
+          <a href="http://www.imd.org/">
+            <img class="rounded" src="assets/imd-logo.png" height=70>
+          </a>
+          <p class="card-text">We have delivered software and digital education courses for IMD.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-block">
+          <a href="http://www.featurist.co.uk/">
+            <img class="rounded" src="assets/featurist-logo.png" height=60>
+          </a>
+          <p class="card-text">We have worked successfully with Featurist on enterprise level web applications.</p>
+        </div>
+      </div>
     </div>
   </div>
 
-  <hr>
-
-  <footer>
-    <p>&copy; Company 2013</p>
-  </footer>
 </div>

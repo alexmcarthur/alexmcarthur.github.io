@@ -1,0 +1,37 @@
+/*body {
+  min-height: 2000px;
+  padding-top: 70px;
+}*/
+
+body {
+  /*min-height: 75rem;
+  padding-top: 4.5rem;*/
+}
+
+.th-logo {
+  width: 100px;
+}
+.th-logo-left {
+  float: left;
+}
+.th-logo-right {
+  float: right;
+  font-size: 10pt;
+  border-left: 1pt solid black;
+  padding-left: 4px;
+}
+
+.th-logo-text {
+  font-family: 'Quicksand', sans-serif;
+  color: forestgreen !important;
+}
+
+.th-logo-small {
+  width: 30px;
+  height: 30px;
+}
+
+.th-logo-large {
+  width: 100px;
+  height: 100px;
+}
